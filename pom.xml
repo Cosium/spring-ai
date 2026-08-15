@@ -14,14 +14,12 @@
   ~ limitations under the License.
   -->
 
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.springframework.ai</groupId>
 	<artifactId>spring-ai-parent</artifactId>
-	<version>2.0.0.0.cosium-SNAPSHOT</version>
+	<version>2.0.0.0.cosium</version>
 
 	<packaging>pom</packaging>
 	<url>https://github.com/spring-projects/spring-ai</url>
@@ -220,7 +218,8 @@
 		<url>https://github.com/spring-projects/spring-ai</url>
 		<connection>scm:git:git://github.com/spring-projects/spring-ai.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com/spring-projects/spring-ai.git</developerConnection>
-	</scm>
+	  <tag>2.0.0.0.cosium</tag>
+  </scm>
 	<issueManagement>
 		<system>Github Issues</system>
 		<url>https://github.com/spring-projects/spring-ai/issues</url>
